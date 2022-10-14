@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Bai Jamjuree";
+}
+
+.header {
+  width: 100%;
+  height: 36rem;
+  background-image: url(../IMG/bg-header-desktop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding: 13rem;
+}
+
+.logo {
+  max-width: 12.5rem;
+  height: 12.5rem;
+  margin: 0 auto;
+}
+
+.hero {
+  text-align: center;
+  max-width: 72rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-heading,
+.snippets-heading,
+.access-heading,
+.workflow-heading,
+.heading-last-cta {
+  font-size: 4.6rem;
+  font-weight: 600;
+  color: #4c545c;
+}
+
+.description,
+.snippets-text,
+.access-text,
+.workflow-text,
+.text-last-cta {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: #9eabb2;
+  margin-top: 1.6rem;
+}
+
+.links {
+  margin: 5.6rem auto;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.ios:link,
+.ios:visited,
+.mac:link,
+.mac:visited {
+  font-size: 1.8rem;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 1.2rem 3.6rem;
+  background-color: #26bba4;
+  border-radius: 2.8rem;
+  box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305),
+    inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+
+.ios:hover,
+.ios:active {
+  background-color: #5ac3b3;
+}
+
+.mac:link,
+.mac:visited {
+  background-color: #6174ff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035),
+    inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+
+.mac:hover,
+.mac:active {
+  background-color: #8891d5;
+}
+
+.snippets {
+  margin-top: 8rem;
+}
+
+.snippets-description,
+.access-description {
+  max-width: 72rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.snippets-computer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 121.2rem;
+  gap: 11rem;
+  margin-top: 4.8rem;
+  margin-left: -4rem;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 5.6rem;
+}
+
+.computer {
+  max-width: 75.2rem;
+}
+
+.search span,
+.sync span,
+.history span {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #4c545c;
+}
+
+.search p,
+.sync p,
+.history p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: #9eabb2;
+  margin-top: 0.8rem;
+}
+
+.access {
+  margin-top: 8rem;
+}
+
+.devices-pic {
+  max-width: 81.2rem;
+  height: 47.5rem;
+  margin: 4.8rem auto;
+}
+
+.devices {
+  width: 100%;
+}
+
+.workflow {
+  margin-top: 8rem;
+}
+
+.workflow-description {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.workflow-features {
+  margin: 7.2rem auto;
+  max-width: 111rem;
+  display: flex;
+}
+
+.blacklist-heading,
+.text-snippets-heading,
+.sneak-heading {
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: #4c545c;
+  margin-top: 4.4rem;
+}
+
+.blacklist-text,
+.text-snippets-text,
+.sneak-text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: #9eabb2;
+  margin-top: 1.6rem;
+}
+
+.blacklist,
+.text-snippets,
+.sneak {
+  text-align: center;
+}
+
+.companies {
+  margin: 4.8rem auto;
+  max-width: 111rem;
+  gap: 8rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: end;
+  align-items: center;
+}
+
+.last-cta {
+  max-width: 72rem;
+  text-align: center;
+  margin: 16rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  width: 100%;
+  height: 16rem;
+  background-color: #e9eef1;
+  padding: 4.4rem 16rem;
+  display: flex;
+  position: relative;
+}
+
+.footer-logo {
+  max-width: 5.6rem;
+  height: 5.6rem;
+}
+
+.footer-nav {
+  margin-left: 13rem;
+}
+
+.footer-nav ul {
+  max-width: 72rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 16rem;
+  row-gap: 1.2rem;
+}
+
+.footer-nav a {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.footer-nav a:hover,
+.footer-nav a:active {
+    color: #26BBA4;
+}
+
+.fa-brands {
+    font-size: 2.4rem;
+    color: #4C545C;
+    letter-spacing: 2.4rem;
+}
+
+.fa-brands:hover {
+    color: #26BBA4;
+}
+
+
+.social {
+    position: absolute;
+    right: 16rem;
+    top: 6.4rem;
+}
+

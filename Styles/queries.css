@@ -1,0 +1,88 @@
+@media (max-width: 30em) {
+    html {
+        font-size: 50%;
+    }
+
+    .header {
+        background-image: url(../IMG/bg-header-mobile.png);
+    }
+
+    .hero {
+        width: 90%;
+    }
+
+    .links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .snippets {
+        width: 90%;
+        margin: auto;
+    }
+
+    .snippets-computer {
+        grid-template-columns: 1fr;
+        margin: 4rem auto;
+    }
+
+    .computer {
+        max-width: 43.2rem;
+        margin: auto;
+    }
+
+    .features {
+        text-align: center;
+    }
+
+    .access {
+        width: 90%;
+        margin: auto;
+    }
+
+    .workflow {
+        width: 90%;
+        margin: auto;
+    }
+
+    .workflow-features {
+        flex-direction: column;
+    }
+
+    .companies {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .last-cta {
+        width: 90%;
+        margin: auto;
+    }
+
+    .footer {
+        display: flex;
+        position: static;
+        flex-direction: column;
+        justify-items: center;
+        height: 50rem;
+        padding: 0;
+    }
+
+    .footer a {
+        margin: 4.8rem auto;
+    }
+
+    .footer-nav{
+        margin-left: 0;
+    }
+
+    .footer-nav ul {
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+
+    .social {
+        position: static;
+        margin: 4.8rem auto;
+    }
+}
