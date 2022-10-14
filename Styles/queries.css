@@ -51,6 +51,13 @@
 
     .workflow-features {
         flex-direction: column;
+        gap: 3.2rem;
+    }
+
+    .blacklist-heading,
+    .text-snippets-heading,
+    .sneak-heading {
+        margin-top: 2.4rem;
     }
 
     .companies {
