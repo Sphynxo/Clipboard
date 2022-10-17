@@ -247,28 +247,27 @@ body {
 .footer-nav a {
   font-size: 1.8rem;
   font-weight: 400;
-  color: #4C545C;
+  color: #4c545c;
 }
 
 .footer-nav a:hover,
 .footer-nav a:active {
-    color: #26BBA4;
+  color: #26bba4;
 }
 
 .fa-brands {
-    font-size: 2.4rem;
-    color: #4C545C;
-    letter-spacing: 2.4rem;
+  font-size: 2.4rem;
+  color: #4c545c;
+  letter-spacing: 2.4rem;
 }
 
 .fa-brands:hover {
-    color: #26BBA4;
+  color: #26bba4;
 }
-
 
 .social {
-    position: absolute;
-    right: 16rem;
-    top: 6.4rem;
+  display: flex;
+  position: absolute;
+  right: 16rem;
+  top: 6.4rem;
 }
-
